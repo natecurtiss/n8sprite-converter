@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using AnotherFileBrowser.Windows;
 using N8SpriteConverter.Colors;
-using N8SpriteConverter.UI;
 using UnityEngine;
 
 namespace N8SpriteConverter
@@ -10,7 +9,7 @@ namespace N8SpriteConverter
     internal sealed class ExportActions : MonoBehaviour
     {
         [SerializeField]
-        private UIConvertedImage _convertedImage;
+        private ConvertedImage _convertedImage;
 
         public void Export()
         {

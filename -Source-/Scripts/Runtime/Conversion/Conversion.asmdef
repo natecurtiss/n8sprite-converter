@@ -1,0 +1,17 @@
+{
+    "name": "Conversion",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e00465a6d6c953f43be21bb78a7c35a5",
+        "GUID:d1b95c0e37684994f9b36a6df6a8f128"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -2,11 +2,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace N8SpriteConverter.UI
+namespace N8SpriteConverter
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(RawImage))]
-    public sealed class UIConvertedImage : MonoBehaviour
+    public sealed class ConvertedImage : MonoBehaviour
     {
         [field: SerializeField]
         public Vector2 MaximumSize { get; [UsedImplicitly] private set; }
