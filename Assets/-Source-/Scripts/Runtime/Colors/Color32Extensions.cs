@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace N8SpriteConverter.Colors
 {
-    internal static class Color32Extensions
+    static class Color32Extensions
     {
         public static bool IsEqualTo(this Color32 first, Color32 second) =>
             first.r == second.r && first.g == second.g && first.b == second.b && first.a == second.a;
@@ -24,6 +24,6 @@ namespace N8SpriteConverter.Colors
             return closestColor;
         }
 
-        private static Vector3 AsVector3(this Color32 color) => new Vector3(color.r, color.g, color.b);
+        static Vector3 AsVector3(this Color32 color) => new Vector3(color.r, color.g, color.b);
     }
 }

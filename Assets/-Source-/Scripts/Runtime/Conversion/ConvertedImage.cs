@@ -14,7 +14,7 @@ namespace N8SpriteConverter
         public RawImage RawImage { get; private set; }
         public Texture2D Texture { get; set; }
 
-        private void Awake()
+        void Awake()
         {
             RectTransform = GetComponent<RectTransform>();
             RawImage = GetComponent<RawImage>();

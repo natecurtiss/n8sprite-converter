@@ -6,10 +6,10 @@ using UnityEngine;
 namespace N8SpriteConverter
 {
     [DisallowMultipleComponent]
-    internal sealed class ImportActions : MonoBehaviour
+    sealed class ImportActions : MonoBehaviour
     {
-        [SerializeField]
-        private ConvertedImage _convertedImage;
+        [SerializeField] 
+        ConvertedImage _convertedImage;
 
         public void Import()
         {
